@@ -3,6 +3,16 @@ variable "aws_region" {
   default = "us-west-1"
 }
 
+variable "AWS_ACCESS_KEY_ID" {
+  type = string
+  default = ""
+}
+
+variable "AWS_SECRET_KEY_ID" {
+  type = string
+  default = ""
+}
+
 variable "db_table_name" {
   type    = string
   default = "terraform-learn"
